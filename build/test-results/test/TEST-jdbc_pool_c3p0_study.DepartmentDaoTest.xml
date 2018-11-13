@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jdbc_pool_c3p0_study.DepartmentDaoTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-11-13T08:44:41" hostname="JAVA_WEB_12" time="0.033">
+  <properties/>
+  <testcase name="test01SelectDepartmentByAll" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.018"/>
+  <testcase name="test02InsertDepartment" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.005"/>
+  <testcase name="test03UpdateDepartment" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.005"/>
+  <testcase name="test04DeleteDepartment" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.003"/>
+  <testcase name="test05SelectDepartmentByNo" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.002"/>
+  <system-out><![CDATA[
+TRACE [Test worker] - Start DepartmentDaoTest
+
+TRACE [Test worker] - select deptno, deptname, floor from department]
+TRACE [Test worker] - [Department [deptNo=1, deptName=영업, floor=8], Department [deptNo=2, deptName=기획, floor=10], Department [deptNo=3, deptName=개발, floor=9], Department [deptNo=5, deptName=연구, floor=10], Department [deptNo=6, deptName=개발, floor=7]]
+
+TRACE [Test worker] - insertDepartment()
+TRACE [Test worker] - insert into department values(10, '총무', 15)]
+TRACE [Test worker] - rowAffected 1
+
+TRACE [Test worker] - updateDepartment()
+TRACE [Test worker] - update department set deptname='총무2', floor=10 where deptno=10]
+TRACE [Test worker] - rowAffected 1
+
+TRACE [Test worker] - deleteDepartment()
+TRACE [Test worker] - delete from department where deptno=10]
+TRACE [Test worker] - rowAffected 1
+
+TRACE [Test worker] - selectDepartmentByNo()
+TRACE [Test worker] - SELECT deptno, deptname, floor from department where deptno=1]
+TRACE [Test worker] - Department - Department [deptNo=1, deptName=영업, floor=8]
+
+TRACE [Test worker] - End DepartmentDaoTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

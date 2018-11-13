@@ -1,6 +1,6 @@
 
-apply plugin: 'java-library'
-
+apply plugin: 'java'
+apply plugin: 'application'
 
 repositories { 
     jcenter()
@@ -9,6 +9,18 @@ tasks.withType(JavaCompile){
     options.encoding = 'UTF-8'
 }
 
+jar{
+    version = 1.0
+    mainClassName = 'jdbc_pool_c3p0_study.Main'
+	baseName = 'Erp'
+	appendix = 'bin'
+	
+	manifest{
+	    attributes 'Title':baseName,'Version':version,'Main-Class':mainClassName
+	}
+	dependsOn configurations.runtime
+
+}
 
 
 

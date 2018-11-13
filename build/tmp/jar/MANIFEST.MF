@@ -1,2 +1,5 @@
 Manifest-Version: 1.0
+Title: Erp
+Version: 1.0
+Main-Class: jdbc_pool_c3p0_study.Main
 
