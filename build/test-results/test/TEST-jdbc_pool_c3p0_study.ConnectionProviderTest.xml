@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jdbc_pool_c3p0_study.ConnectionProviderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-13T08:44:41" hostname="JAVA_WEB_12" time="0.285">
+<testsuite name="jdbc_pool_c3p0_study.ConnectionProviderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-14T09:12:02" hostname="JAVA_WEB_12" time="0.303">
   <properties/>
-  <testcase name="testConnection" classname="jdbc_pool_c3p0_study.ConnectionProviderTest" time="0.285"/>
+  <testcase name="testConnection" classname="jdbc_pool_c3p0_study.ConnectionProviderTest" time="0.303"/>
   <system-out><![CDATA[
 TRACE [Test worker] - start ConnectionProviderTest
 
-TRACE [Test worker] - com.mchange.v2.c3p0.impl.NewProxyConnection@7058c4e3 [wrapping: com.mysql.jdbc.JDBC4Connection@6ea0fa28]
+TRACE [Test worker] - com.mchange.v2.c3p0.impl.NewProxyConnection@7058c4e3 [wrapping: com.mysql.jdbc.JDBC4Connection@4f984360]
 
 TRACE [Test worker] - End ConnectionProviderTest
 ]]></system-out>
-  <system-err><![CDATA[11월 13, 2018 5:44:41 오후 com.mchange.v2.log.MLog 
+  <system-err><![CDATA[11월 14, 2018 6:12:02 오후 com.mchange.v2.log.MLog 
 정보: MLog clients using java 1.4+ standard logging.
-11월 13, 2018 5:44:41 오후 com.mchange.v2.c3p0.C3P0Registry 
+11월 14, 2018 6:12:02 오후 com.mchange.v2.c3p0.C3P0Registry 
 정보: Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
-11월 13, 2018 5:44:41 오후 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource 
-정보: Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@757c06f9 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a5ca68ad [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge2w59z3eawo817e64dh|3cfbf53b, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 200, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@8a335f66 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge2w59z3eawo817e64dh|38ec569f, jdbcUrl -> jdbc:mysql://localhost/mysql_study?useSSL=false, properties -> {user=******, url=jdbc:mysql://localhost/mysql_study?useSSL=false, password=******, driver=com.mysql.jdbc.Driver} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge2w59z3eawo817e64dh|4bf35701, numHelperThreads -> 3 ]
+11월 14, 2018 6:12:02 오후 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource 
+정보: Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@6dc056d6 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9e0eb88a [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge2w59z4upxpw1ty815c|3cfbf53b, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 200, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@8277af43 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge2w59z4upxpw1ty815c|38ec569f, jdbcUrl -> jdbc:mysql://localhost/mysql_study?useSSL=false, properties -> {user=******, url=jdbc:mysql://localhost/mysql_study?useSSL=false, password=******, driver=com.mysql.jdbc.Driver} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge2w59z4upxpw1ty815c|4bf35701, numHelperThreads -> 3 ]
 ]]></system-err>
 </testsuite>

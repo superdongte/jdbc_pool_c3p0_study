@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.285s</div>
+<div class="counter">0.303s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,7 @@
 </thead>
 <tr>
 <td class="success">testConnection</td>
-<td>0.285s</td>
+<td>0.303s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -93,7 +93,7 @@
 <pre>
 TRACE [Test worker] - start ConnectionProviderTest
 
-TRACE [Test worker] - com.mchange.v2.c3p0.impl.NewProxyConnection@7058c4e3 [wrapping: com.mysql.jdbc.JDBC4Connection@6ea0fa28]
+TRACE [Test worker] - com.mchange.v2.c3p0.impl.NewProxyConnection@7058c4e3 [wrapping: com.mysql.jdbc.JDBC4Connection@4f984360]
 
 TRACE [Test worker] - End ConnectionProviderTest
 </pre>
@@ -102,12 +102,12 @@ TRACE [Test worker] - End ConnectionProviderTest
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>11월 13, 2018 5:44:41 오후 com.mchange.v2.log.MLog 
+<pre>11월 14, 2018 6:12:02 오후 com.mchange.v2.log.MLog 
 정보: MLog clients using java 1.4+ standard logging.
-11월 13, 2018 5:44:41 오후 com.mchange.v2.c3p0.C3P0Registry 
+11월 14, 2018 6:12:02 오후 com.mchange.v2.c3p0.C3P0Registry 
 정보: Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
-11월 13, 2018 5:44:41 오후 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource 
-정보: Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@757c06f9 [ connectionPoolDataSource -&gt; com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a5ca68ad [ acquireIncrement -&gt; 3, acquireRetryAttempts -&gt; 30, acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false, automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false, checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null, connectionTesterClassName -&gt; com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -&gt; caller, debugUnreturnedConnectionStackTraces -&gt; false, factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions -&gt; false, forceSynchronousCheckins -&gt; false, identityToken -&gt; 1hge2w59z3eawo817e64dh|3cfbf53b, idleConnectionTestPeriod -&gt; 0, initialPoolSize -&gt; 3, maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0, maxIdleTime -&gt; 0, maxIdleTimeExcessConnections -&gt; 0, maxPoolSize -&gt; 50, maxStatements -&gt; 200, maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 3, nestedDataSource -&gt; com.mchange.v2.c3p0.DriverManagerDataSource@8a335f66 [ description -&gt; null, driverClass -&gt; null, factoryClassLocation -&gt; null, forceUseNamedDriverClass -&gt; false, identityToken -&gt; 1hge2w59z3eawo817e64dh|38ec569f, jdbcUrl -&gt; jdbc:mysql://localhost/mysql_study?useSSL=false, properties -&gt; {user=******, url=jdbc:mysql://localhost/mysql_study?useSSL=false, password=******, driver=com.mysql.jdbc.Driver} ], preferredTestQuery -&gt; null, privilegeSpawnedThreads -&gt; false, propertyCycle -&gt; 0, statementCacheNumDeferredCloseThreads -&gt; 0, testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt; false, unreturnedConnectionTimeout -&gt; 0, usesTraditionalReflectiveProxies -&gt; false; userOverrides: {} ], dataSourceName -&gt; null, extensions -&gt; {}, factoryClassLocation -&gt; null, identityToken -&gt; 1hge2w59z3eawo817e64dh|4bf35701, numHelperThreads -&gt; 3 ]
+11월 14, 2018 6:12:02 오후 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource 
+정보: Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@6dc056d6 [ connectionPoolDataSource -&gt; com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9e0eb88a [ acquireIncrement -&gt; 3, acquireRetryAttempts -&gt; 30, acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false, automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false, checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null, connectionTesterClassName -&gt; com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -&gt; caller, debugUnreturnedConnectionStackTraces -&gt; false, factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions -&gt; false, forceSynchronousCheckins -&gt; false, identityToken -&gt; 1hge2w59z4upxpw1ty815c|3cfbf53b, idleConnectionTestPeriod -&gt; 0, initialPoolSize -&gt; 3, maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0, maxIdleTime -&gt; 0, maxIdleTimeExcessConnections -&gt; 0, maxPoolSize -&gt; 50, maxStatements -&gt; 200, maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 3, nestedDataSource -&gt; com.mchange.v2.c3p0.DriverManagerDataSource@8277af43 [ description -&gt; null, driverClass -&gt; null, factoryClassLocation -&gt; null, forceUseNamedDriverClass -&gt; false, identityToken -&gt; 1hge2w59z4upxpw1ty815c|38ec569f, jdbcUrl -&gt; jdbc:mysql://localhost/mysql_study?useSSL=false, properties -&gt; {user=******, url=jdbc:mysql://localhost/mysql_study?useSSL=false, password=******, driver=com.mysql.jdbc.Driver} ], preferredTestQuery -&gt; null, privilegeSpawnedThreads -&gt; false, propertyCycle -&gt; 0, statementCacheNumDeferredCloseThreads -&gt; 0, testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt; false, unreturnedConnectionTimeout -&gt; 0, usesTraditionalReflectiveProxies -&gt; false; userOverrides: {} ], dataSourceName -&gt; null, extensions -&gt; {}, factoryClassLocation -&gt; null, identityToken -&gt; 1hge2w59z4upxpw1ty815c|4bf35701, numHelperThreads -&gt; 3 ]
 </pre>
 </span>
 </div>
@@ -119,7 +119,7 @@ TRACE [Test worker] - End ConnectionProviderTest
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.3</a> at 2018. 11. 13 오후 5:44:41</p>
+<a href="http://www.gradle.org">Gradle 4.3</a> at 2018. 11. 14 오후 6:12:02</p>
 </div>
 </div>
 </body>

@@ -17,3 +17,41 @@
 [2018-11-13] SELECT deptno, deptname, floor from department where deptno=1]
 [2018-11-13] Department - Department [deptNo=1, deptName=영업, floor=8]
 [2018-11-13] End DepartmentDaoTest
+[2018-11-14] start ConnectionProviderTest
+[2018-11-14] com.mchange.v2.c3p0.impl.NewProxyConnection@76000c5e [wrapping: com.mysql.jdbc.JDBC4Connection@42838b6c]
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start DepartmentDaoTest
+[2018-11-14] select deptno, deptname, floor from department]
+[2018-11-14] [Department [deptNo=1, deptName=영업, floor=8], Department [deptNo=2, deptName=기획, floor=10], Department [deptNo=3, deptName=개발, floor=9], Department [deptNo=5, deptName=연구, floor=10], Department [deptNo=6, deptName=개발, floor=7]]
+[2018-11-14] insertDepartment()
+[2018-11-14] insert into department values(10, '총무', 15)]
+[2018-11-14] rowAffected 1
+[2018-11-14] updateDepartment()
+[2018-11-14] update department set deptname='총무2', floor=10 where deptno=10]
+[2018-11-14] rowAffected 1
+[2018-11-14] deleteDepartment()
+[2018-11-14] delete from department where deptno=10]
+[2018-11-14] rowAffected 1
+[2018-11-14] selectDepartmentByNo()
+[2018-11-14] SELECT deptno, deptname, floor from department where deptno=1]
+[2018-11-14] Department - Department [deptNo=1, deptName=영업, floor=8]
+[2018-11-14] End DepartmentDaoTest
+[2018-11-14] start ConnectionProviderTest
+[2018-11-14] com.mchange.v2.c3p0.impl.NewProxyConnection@7058c4e3 [wrapping: com.mysql.jdbc.JDBC4Connection@4f984360]
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start DepartmentDaoTest
+[2018-11-14] select deptno, deptname, floor from department]
+[2018-11-14] [Department [deptNo=1, deptName=영업, floor=8], Department [deptNo=2, deptName=기획, floor=10], Department [deptNo=3, deptName=개발, floor=9], Department [deptNo=5, deptName=연구, floor=10], Department [deptNo=6, deptName=개발, floor=7]]
+[2018-11-14] insertDepartment()
+[2018-11-14] insert into department values(10, '총무', 15)]
+[2018-11-14] rowAffected 1
+[2018-11-14] updateDepartment()
+[2018-11-14] update department set deptname='총무2', floor=10 where deptno=10]
+[2018-11-14] rowAffected 1
+[2018-11-14] deleteDepartment()
+[2018-11-14] delete from department where deptno=10]
+[2018-11-14] rowAffected 1
+[2018-11-14] selectDepartmentByNo()
+[2018-11-14] SELECT deptno, deptname, floor from department where deptno=1]
+[2018-11-14] Department - Department [deptNo=1, deptName=영업, floor=8]
+[2018-11-14] End DepartmentDaoTest

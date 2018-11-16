@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jdbc_pool_c3p0_study.DepartmentDaoTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-11-13T08:44:41" hostname="JAVA_WEB_12" time="0.033">
+<testsuite name="jdbc_pool_c3p0_study.DepartmentDaoTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-11-14T09:12:02" hostname="JAVA_WEB_12" time="0.036">
   <properties/>
-  <testcase name="test01SelectDepartmentByAll" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.018"/>
-  <testcase name="test02InsertDepartment" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.005"/>
-  <testcase name="test03UpdateDepartment" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.005"/>
+  <testcase name="test01SelectDepartmentByAll" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.025"/>
+  <testcase name="test02InsertDepartment" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.004"/>
+  <testcase name="test03UpdateDepartment" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.003"/>
   <testcase name="test04DeleteDepartment" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.003"/>
-  <testcase name="test05SelectDepartmentByNo" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.002"/>
+  <testcase name="test05SelectDepartmentByNo" classname="jdbc_pool_c3p0_study.DepartmentDaoTest" time="0.001"/>
   <system-out><![CDATA[
 TRACE [Test worker] - Start DepartmentDaoTest
 
